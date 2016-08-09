@@ -1,7 +1,7 @@
 from pygments.lexer import RegexLexer, bygroups
 from pygments.token import *
 
-__all__ = ['TopasLexer']
+__all__ = ['TopasLexer', 'TextLexer']
 
 
 class TopasLexer(RegexLexer):
@@ -27,4 +27,16 @@ class TopasLexer(RegexLexer):
             ('[^"]+', String),
             ('"', String, '#pop'),
         ]
+    }
+
+
+class PlainLexer(RegexLexer):
+
+    name = 'Plain'
+    aliases = ['plain']
+
+    tokens = {
+        'root': [
+            (r'.', Name),
+        ],
     }

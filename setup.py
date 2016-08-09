@@ -14,12 +14,13 @@ entry_points = {
     ],
     'pygments.lexers': [
         'topas=topas_pygments:TopasLexer',
+        'plain=topas_pygments:PlainLexer',
     ],
 }
 
 setup(
     name='topas-pygments',
-    version='0.1.0',
+    version='0.2.0',
     description="TOPAS plugins for pygments",
     author="David Hall",
     author_email='dhcrawley@gmail.com',

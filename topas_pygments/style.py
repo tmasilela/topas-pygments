@@ -4,7 +4,7 @@ from pygments.token import *
 
 class TopasStyle(Style):
 
-    default_style = ""
+    default_style = "#f8f8f2"
     background_color = "#272822"
     highlight_color = "#49483e"
 
