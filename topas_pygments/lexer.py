@@ -14,7 +14,7 @@ class TopasLexer(RegexLexer):
         'root': [
             (r'#.*$', Comment),
             (r'(?i)(includefile|inheritedvalue)', Keyword.Namespace),
-            (r'^([bidus]v?)(:)', bygroups(Keyword.Type, Name)),
+            (r'^([bidus]v?c?)(:)', bygroups(Keyword.Type, Name)),
             (r'(?i)(ma|el|is|ge|gr|ph|so|sc|tf|ts|vr)([/\w]*/)([\w]+)',
                 bygroups(Name.Class, Name.Class, Name.Attribute)),
             (r'"(?i)(true|false|t|f|1|0)"', Keyword.Constant),
