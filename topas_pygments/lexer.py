@@ -17,7 +17,7 @@ class TopasLexer(RegexLexer):
             (r'^([bidus]v?c?)(:)', bygroups(Keyword.Type, Name)),
             (r'(?i)(ma|el|is|ge|gr|ph|so|sc|tf|ts|vr|rt)([/\w]*/)([\w]+)',
                 bygroups(Name.Class, Name.Class, Name.Attribute)),
-            (r'(?i)"(true|false)', Keyword.Constant),
+            (r'(?i)"(true|false)"', Keyword.Constant),
             (r'"', String, 'string'),
             (r'(?<!\w)[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?', Number),
             (r'[=+*-]', Operator),
