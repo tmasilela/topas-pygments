@@ -10,66 +10,66 @@ class TopasStyle(Style):
 
     styles = {
         # No corresponding class for the following:
-        Text:                      "#f8f8f2", # class:  ''
+        Text:                      "nobold #f8f8f2", # class:  ''
         Whitespace:                "",        # class: 'w'
-        Error:                     "#960050 bg:#1e0010", # class: 'err'
+        Error:                     "nobold #960050 bg:#1e0010", # class: 'err'
         Other:                     "",        # class 'x'
 
-        Comment:                   "#75715e", # class: 'c'
+        Comment:                   "nobold #75715e", # class: 'c'
         Comment.Multiline:         "",        # class: 'cm'
         Comment.Preproc:           "",        # class: 'cp'
         Comment.Single:            "",        # class: 'c1'
         Comment.Special:           "",        # class: 'cs'
 
-        Keyword:                   "#66d9ef", # class: 'k'
+        Keyword:                   "nobold #66d9ef", # class: 'k'
         Keyword.Constant:          "",        # class: 'kc'
         Keyword.Declaration:       "",        # class: 'kd'
-        Keyword.Namespace:         "#f92672", # class: 'kn'
+        Keyword.Namespace:         "nobold #f92672", # class: 'kn'
         Keyword.Pseudo:            "",        # class: 'kp'
         Keyword.Reserved:          "",        # class: 'kr'
-        Keyword.Type:              "italic",  # class: 'kt'
+        Keyword.Type:              "nobold",  # class: 'kt'
 
-        Operator:                  "#f92672", # class: 'o'
+        Operator:                  "nobold #f92672", # class: 'o'
         Operator.Word:             "",        # class: 'ow' - like keywords
 
-        Punctuation:               "#f8f8f2", # class: 'p'
+        Punctuation:               "nobold #f8f8f2", # class: 'p'
 
-        Name:                      "#f8f8f2", # class: 'n'
-        Name.Attribute:            "#a6e22e", # class: 'na' - to be revised
+        Name:                      "nobold #f8f8f2", # class: 'n'
+        Name.Attribute:            "nobold #a6e22e", # class: 'na' - to be revised
         Name.Builtin:              "",        # class: 'nb'
         Name.Builtin.Pseudo:       "",        # class: 'bp'
-        Name.Class:                "#fd971f", # class: 'nc' - to be revised
-        Name.Constant:             "#66d9ef", # class: 'no' - to be revised
-        Name.Decorator:            "#a6e22e", # class: 'nd' - to be revised
+        Name.Class:                "nobold #fd971f", # class: 'nc' - to be revised
+        Name.Constant:             "nobold #66d9ef", # class: 'no' - to be revised
+        Name.Decorator:            "nobold #a6e22e", # class: 'nd' - to be revised
         Name.Entity:               "",        # class: 'ni'
-        Name.Exception:            "#a6e22e", # class: 'ne'
-        Name.Function:             "#a6e22e", # class: 'nf'
+        Name.Exception:            "nobold #a6e22e", # class: 'ne'
+        Name.Function:             "nobold #a6e22e", # class: 'nf'
         Name.Property:             "",        # class: 'py'
         Name.Label:                "",        # class: 'nl'
         Name.Namespace:            "",        # class: 'nn' - to be revised
-        Name.Other:                "#a6e22e", # class: 'nx'
-        Name.Tag:                  "#f92672", # class: 'nt' - like a keyword
+        Name.Other:                "nobold #a6e22e", # class: 'nx'
+        Name.Tag:                  "nobold #f92672", # class: 'nt' - like a keyword
         Name.Variable:             "",        # class: 'nv' - to be revised
         Name.Variable.Class:       "",        # class: 'vc' - to be revised
         Name.Variable.Global:      "",        # class: 'vg' - to be revised
         Name.Variable.Instance:    "",        # class: 'vi' - to be revised
 
-        Number:                    "#ae81ff", # class: 'm'
+        Number:                    "nobold #ae81ff", # class: 'm'
         Number.Float:              "",        # class: 'mf'
         Number.Hex:                "",        # class: 'mh'
         Number.Integer:            "",        # class: 'mi'
         Number.Integer.Long:       "",        # class: 'il'
         Number.Oct:                "",        # class: 'mo'
 
-        Literal:                   "#ae81ff", # class: 'l'
-        Literal.Date:              "#e6db74", # class: 'ld'
+        Literal:                   "#nobold ae81ff", # class: 'l'
+        Literal.Date:              "#nobold e6db74", # class: 'ld'
 
-        String:                    "#e6db74", # class: 's'
+        String:                    "#nobold e6db74", # class: 's'
         String.Backtick:           "",        # class: 'sb'
         String.Char:               "",        # class: 'sc'
         String.Doc:                "",        # class: 'sd' - like a comment
         String.Double:             "",        # class: 's2'
-        String.Escape:             "#ae81ff", # class: 'se'
+        String.Escape:             "#nobold ae81ff", # class: 'se'
         String.Heredoc:            "",        # class: 'sh'
         String.Interpol:           "",        # class: 'si'
         String.Other:              "",        # class: 'sx'
@@ -78,14 +78,14 @@ class TopasStyle(Style):
         String.Symbol:             "",        # class: 'ss'
 
         Generic:                   "",        # class: 'g'
-        Generic.Deleted:           "#f92672", # class: 'gd',
-        Generic.Emph:              "italic",  # class: 'ge'
+        Generic.Deleted:           "#nobold f92672", # class: 'gd',
+        Generic.Emph:              "nobold",  # class: 'ge'
         Generic.Error:             "",        # class: 'gr'
         Generic.Heading:           "",        # class: 'gh'
-        Generic.Inserted:          "#a6e22e", # class: 'gi'
+        Generic.Inserted:          "nobold #a6e22e", # class: 'gi'
         Generic.Output:            "",        # class: 'go'
         Generic.Prompt:            "",        # class: 'gp'
         Generic.Strong:            "nobold",  # class: 'gs'
-        Generic.Subheading:        "#75715e", # class: 'gu'
+        Generic.Subheading:        "nobold #75715e", # class: 'gu'
         Generic.Traceback:         "",        # class: 'gt'
     }
