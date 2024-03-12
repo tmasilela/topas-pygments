@@ -61,15 +61,15 @@ class TopasStyle(Style):
         Number.Integer.Long:       "",        # class: 'il'
         Number.Oct:                "",        # class: 'mo'
 
-        Literal:                   "#nobold ae81ff", # class: 'l'
-        Literal.Date:              "#nobold e6db74", # class: 'ld'
+        Literal:                   "nobold #ae81ff", # class: 'l'
+        Literal.Date:              "nobold #e6db74", # class: 'ld'
 
-        String:                    "#nobold e6db74", # class: 's'
+        String:                    "nobold #e6db74", # class: 's'
         String.Backtick:           "",        # class: 'sb'
         String.Char:               "",        # class: 'sc'
         String.Doc:                "",        # class: 'sd' - like a comment
         String.Double:             "",        # class: 's2'
-        String.Escape:             "#nobold ae81ff", # class: 'se'
+        String.Escape:             "nobold #ae81ff", # class: 'se'
         String.Heredoc:            "",        # class: 'sh'
         String.Interpol:           "",        # class: 'si'
         String.Other:              "",        # class: 'sx'
@@ -78,7 +78,7 @@ class TopasStyle(Style):
         String.Symbol:             "",        # class: 'ss'
 
         Generic:                   "",        # class: 'g'
-        Generic.Deleted:           "#nobold f92672", # class: 'gd',
+        Generic.Deleted:           "nobold #f92672", # class: 'gd',
         Generic.Emph:              "nobold",  # class: 'ge'
         Generic.Error:             "",        # class: 'gr'
         Generic.Heading:           "",        # class: 'gh'
