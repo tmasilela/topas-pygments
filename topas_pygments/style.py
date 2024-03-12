@@ -85,7 +85,7 @@ class TopasStyle(Style):
         Generic.Inserted:          "#a6e22e", # class: 'gi'
         Generic.Output:            "",        # class: 'go'
         Generic.Prompt:            "",        # class: 'gp'
-        Generic.Strong:            "bold",    # class: 'gs'
+        Generic.Strong:            "nobold",  # class: 'gs'
         Generic.Subheading:        "#75715e", # class: 'gu'
         Generic.Traceback:         "",        # class: 'gt'
     }
